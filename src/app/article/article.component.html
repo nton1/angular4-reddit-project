@@ -1,0 +1,11 @@
+<div  class="article-container">
+      <div class="article-raiting" fxFlex="25%">
+          <p>{{article.votes}}</p>
+          <p>points</p>
+      </div>
+      <div class="article-details" fxFlex="75%">
+          <p>{{article.title}}</p>
+          <p>{{article.link}}</p>
+          <button md-button (click)="voteUp()">Upvote</button><button md-button (click)="voteDown()">Downvote</button>
+      </div>
+</div>

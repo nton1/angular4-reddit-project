@@ -1,0 +1,15 @@
+.example-form{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.md-card-style{
+  background-color: #516b9a;
+  color: white;
+}
+
+.example-full-width {
+    width: 100%;
+  }

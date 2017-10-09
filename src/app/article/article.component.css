@@ -1,0 +1,18 @@
+.article-container{
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.article-raiting{
+  background-color: gray;
+  text-align: center;
+}
+
+.article-details{
+  background-color: rgb(116, 148, 189);
+  padding-left: 25px;
+}
