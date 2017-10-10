@@ -1,8 +1,7 @@
-    <md-toolbar  color="primary" class="app-navbar">reddit App</md-toolbar>
+<md-toolbar  color="primary" class="app-navbar">reddit App</md-toolbar>
 <div class="example-form">
     <md-card class="md-card-style">
         <md-card-title>Add a link</md-card-title>
-
         <form >
             <md-form-field class="example-full-width">
               <input mdInput  name="title" #newtitle placeholder="Title article" value="The art of learning" >
@@ -12,10 +11,8 @@
             </md-form-field>
             <button md-raised-button (click)="addArticle(newtitle,newlink)">Submit article</button>
         </form>
-
-
     </md-card>
-  </div>
-  <app-article *ngFor="let article of articles" [article]="article"></app-article>
+</div>
+<app-article *ngFor="let article of articles" [article]="article"></app-article>
 
 
